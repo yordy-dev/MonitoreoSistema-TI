@@ -1,0 +1,76 @@
+2025-11-21 19:23:34	Inicio de monitoreo.
+2025-11-21 19:23:34	Tomando muestras de CPU...
+2025-11-21 19:23:36	ERROR al leer CPU
+2025-11-21 19:23:38	ALERTA enviada: ALERTA: Servicios
+2025-11-21 19:23:38	CPU: error al leer metrica | Servicios con problema: Spooler : Stopped; wuauserv : Stopped
+2025-11-21 19:23:38	Fin de ejecucion.
+2025-11-21 19:24:36	Inicio de monitoreo.
+2025-11-21 19:24:36	Tomando muestras de CPU...
+2025-11-21 19:24:37	ERROR al leer CPU
+2025-11-21 19:24:37	ALERTA 'SERVICE_DOWN' omitida (cooldown: 1 min de 30 min)
+2025-11-21 19:24:37	CPU: error al leer metrica | Servicios con problema: Spooler : Stopped; wuauserv : Stopped
+2025-11-21 19:24:37	Fin de ejecucion.
+2025-11-21 19:26:51	Inicio de monitoreo.
+2025-11-21 19:26:51	Tomando muestras de CPU...
+2025-11-21 19:26:55	CPU promedio de 3 muestras: 28.4%
+2025-11-21 19:26:55	ALERTA 'SERVICE_DOWN' omitida (cooldown: 3.3 min de 30 min)
+2025-11-21 19:26:55	CPU: 28.4% | Memoria usada: 50.3% (8129.1 MB libres) | Servicios con problema: Spooler : Stopped; wuauserv : Stopped
+2025-11-21 19:26:55	Fin de ejecucion.
+2025-11-21 20:12:45	ERROR enviando mensaje de prueba: Error en el servidor remoto: (400) Solicitud incorrecta.
+2025-11-21 20:14:42	Inicio de monitoreo.
+2025-11-21 20:14:42	Tomando muestras de CPU...
+2025-11-21 20:14:46	CPU promedio de 3 muestras: 39.5%
+2025-11-21 20:14:47	ALERTA enviada: ALERTA: Servicios
+2025-11-21 20:14:47	CPU: 39.5% | Memoria usada: 49.1% (8322.5 MB libres) | Servicios con problema: Spooler : Stopped; wuauserv : Stopped
+2025-11-21 20:14:47	Fin de ejecucion.
+2025-11-21 20:49:13	Inicio de monitoreo.
+2025-11-21 20:49:13	Tomando muestras de CPU...
+2025-11-21 20:49:17	CPU promedio de 3 muestras: 13.3%
+2025-11-21 20:49:19	ALERTA enviada: ALERTA: Servicios
+2025-11-21 20:49:19	CPU: 13.3% | Memoria usada: 46.6% (8721.2 MB libres) | Servicios con problema: Spooler : Stopped
+2025-11-21 20:49:19	Fin de ejecucion.
+2025-11-21 20:55:14	Inicio de monitoreo.
+2025-11-21 20:55:14	Tomando muestras de CPU...
+2025-11-21 20:55:18	CPU promedio de 3 muestras: 20.6%
+2025-11-21 20:55:18	ALERTA 'SERVICE_DOWN' omitida (cooldown: 6 min de 30 min)
+2025-11-21 20:55:18	CPU: 20.6% | Memoria usada: 47.3% (8604 MB libres) | Servicios con problema: Spooler : Stopped; wuauserv : Stopped
+2025-11-21 20:55:18	Fin de ejecucion.
+2025-11-21 20:55:41	Inicio de monitoreo.
+2025-11-21 20:55:41	Tomando muestras de CPU...
+2025-11-21 20:55:45	CPU promedio de 3 muestras: 24.6%
+2025-11-21 20:55:45	ALERTA enviada: Servicios de Windows Detenidos
+2025-11-21 20:55:45	CPU: 24.6% | Memoria usada: 48.2% (8465.3 MB libres) | Servicios con problema: Spooler : Stopped; wuauserv : Stopped
+2025-11-21 20:55:45	Fin de ejecucion.
+2025-11-21 21:02:11	Inicio de monitoreo.
+2025-11-21 21:02:11	Tomando muestras de CPU...
+2025-11-21 21:02:16	CPU promedio de 3 muestras: 27.1%
+2025-11-21 21:02:16	ALERTA 'SERVICE_DOWN' omitida (cooldown: 6.5 min de 30 min)
+2025-11-21 21:02:16	CPU: 27.1% | Memoria usada: 50% (8178.2 MB libres) | Servicios con problema: Spooler : Stopped; wuauserv : Stopped
+2025-11-21 21:02:16	Fin de ejecucion.
+2025-11-21 21:05:10	Inicio de monitoreo.
+2025-11-21 21:05:10	Tomando muestras de CPU...
+2025-11-21 21:05:14	CPU promedio de 3 muestras: 18.2%
+2025-11-21 21:05:14	ALERTA 'SERVICE_DOWN' omitida (cooldown: 9.5 min de 30 min)
+2025-11-21 21:05:14	CPU: 18.2% | Memoria usada: 50.2% (8139 MB libres) | Servicios con problema: Spooler : Stopped; wuauserv : Stopped
+2025-11-21 21:05:14	Fin de ejecucion.
+2025-11-21 21:05:38	Inicio de monitoreo.
+2025-11-21 21:05:38	Tomando muestras de CPU...
+2025-11-21 21:05:42	CPU promedio de 3 muestras: 18.4%
+2025-11-21 21:05:42	ALERTA 'SERVICE_DOWN' omitida (cooldown: 10 min de 30 min)
+2025-11-21 21:05:42	CPU: 18.4% | Memoria usada: 50.3% (8122.8 MB libres) | Servicios con problema: Spooler : Stopped; wuauserv : Stopped
+2025-11-21 21:05:42	Fin de ejecucion.
+2025-11-21 21:07:10	Inicio de monitoreo.
+2025-11-21 21:07:10	Tomando muestras de CPU...
+2025-11-21 21:07:14	Inicio de monitoreo.
+2025-11-21 21:07:14	Tomando muestras de CPU...
+2025-11-21 21:07:14	CPU promedio de 3 muestras: 20.1%
+2025-11-21 21:07:18	CPU promedio de 3 muestras: 22.5%
+2025-11-21 21:07:18	ALERTA 'SERVICE_DOWN' omitida (cooldown: 11.6 min de 30 min)
+2025-11-21 21:07:18	CPU: 22.5% | Memoria usada: 48.9% (8350.3 MB libres) | Servicios con problema: Spooler : Stopped; wuauserv : Stopped
+2025-11-21 21:07:18	Fin de ejecucion.
+2025-11-21 21:17:10	Inicio de monitoreo.
+2025-11-21 21:17:10	Tomando muestras de CPU...
+2025-11-21 21:17:15	CPU promedio de 3 muestras: 20.4%
+2025-11-21 21:17:16	ALERTA enviada: Servicios de Windows Detenidos
+2025-11-21 21:17:16	CPU: 20.4% | Memoria usada: 52.3% (7797.5 MB libres) | Servicios con problema: Spooler : Stopped; wuauserv : Stopped
+2025-11-21 21:17:16	Fin de ejecucion.

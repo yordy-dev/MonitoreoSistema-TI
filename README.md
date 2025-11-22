@@ -8,6 +8,14 @@ Un sistema de monitoreo ligero y automatizado para Windows que supervisa el esta
 
 ---
 
+## 📊 Impacto y Alcance
+Este sistema está diseñado para operar en entornos de producción real, demostrando capacidad para:
+- **Monitoreo Continuo**: Supervisión 24/7 de recursos críticos (CPU, RAM, Disco) sin intervención humana.
+- **Escalabilidad**: Probado en estaciones de trabajo individuales; escalable a múltiples nodos de red mediante despliegue masivo.
+- **Registro Histórico**: Generación automática de logs diarios para auditoría y análisis de tendencias de rendimiento.
+
+---
+
 ## ✨ Características
 
 - **📊 Monitoreo en Tiempo Real**: Revisa CPU, Memoria RAM, Espacio en Disco y Servicios de Windows.
@@ -102,6 +110,10 @@ Tienes dos opciones para activar el monitoreo automático:
 
 4. Clic en "Aceptar"
 
+> **Nota Visual**: Así debería verse tu tarea programada una vez configurada:
+>
+> ![Configuración Task Scheduler](img/task_scheduler_config.png)
+
 ---
 
 ## Verificar que Funciona
@@ -115,7 +127,18 @@ Tienes dos opciones para activar el monitoreo automático:
 
 ### Método 2: Esperar 10 Minutos
 - La tarea se ejecutará automáticamente
-- Revisa los logs en C:\MonitoringLogs\
+- Revisa los logs en `C:\MonitoringLogs\`
+
+### 📝 Ejemplo de Log Generado
+El sistema genera un registro detallado de cada ejecución. Así se ve un archivo de log típico (`monitor_YYYYMMDD.log`):
+
+```log
+2025-11-21 10:00:00	Inicio de monitoreo.
+2025-11-21 10:00:00	Tomando muestras de CPU...
+2025-11-21 10:00:01	CPU promedio de 3 muestras: 12.5%
+2025-11-21 10:00:01	CPU: 12.5% | Memoria usada: 34.2% (10500 MB libres)
+2025-11-21 10:00:01	Fin de ejecucion.
+```
 
 ### Comandos de PowerShell
 Puedes ejecutar estos comandos en PowerShell para gestionar la tarea:
@@ -139,19 +162,32 @@ Unregister-ScheduledTask -TaskName "MonitoreoSistema-TI" -Confirm:$false
 
 ---
 
-## 📸 Ejemplos de Alertas
+## 📸 Evidencias y Resultados
+
+> **[📂 Ver Galería Completa de Evidencias](/evidence/)**  
+> *Consulta la carpeta `/evidence` para ver capturas de pantalla de alertas reales y archivos de log generados.*
+
+### 🎥 Video Demostrativo
+> **[Ver Demo en Funcionamiento](#)** (Añade aquí tu link a YouTube/Loom)  
+> *Demostración del script detectando fallos y enviando alertas en tiempo real.*
+
+### Ejemplos de Alertas en Discord
+A continuación se muestran los formatos de alerta que genera el sistema:
 
 El sistema envía alertas con diferentes niveles de severidad:
 
 ### 🔥 CPU Sobrecargada
+![Alerta CPU Discord](img/alerta_cpu.png)
 > **Estado**: CRÍTICO
 > **Mensaje**: El procesador está funcionando al **95%** de su capacidad.
 
 ### 💾 Espacio en Disco Bajo
+![Alerta Disco Discord](img/alerta_disco.png)
 > **Estado**: CRÍTICO
 > **Mensaje**: Uno o más discos están quedándose sin espacio (menos del **10%** libre).
 
 ### 🔧 Servicios Detenidos
+![Alerta Servicios Discord](img/alerta_servicios.png)
 > **Estado**: ADVERTENCIA
 > **Mensaje**: Se detectaron servicios que no están en ejecución (ej: Spooler).
 
@@ -178,6 +214,18 @@ El sistema envía alertas con diferentes niveles de severidad:
 
 **Error de permisos:**
 Asegúrate de ejecutar `Configurar-Tarea.ps1` como **Administrador**.
+
+---
+
+## 🛠️ Tecnologías y Habilidades Clave
+
+Este proyecto demuestra dominio técnico en las siguientes áreas:
+
+- **PowerShell Scripting Avanzado**: Creación de scripts modulares, manejo de objetos y variables de entorno.
+- **Administración de Sistemas Windows**: Uso de WMI/CIM para extracción de métricas de hardware y gestión de servicios.
+- **Automatización de Infraestructura**: Configuración programática del Programador de Tareas (Task Scheduler).
+- **Integración de APIs**: Comunicación con servicios externos (Discord) mediante Webhooks y cargas JSON.
+- **Manejo de Logs y Errores**: Implementación de sistemas de registro robustos para depuración y auditoría.
 
 ---
 
