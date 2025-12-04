@@ -194,6 +194,8 @@ El sistema envía alertas con diferentes niveles de severidad:
 ```text
 📁 MonitorTI/
 │
+├── 📜 evidence               # evidencia del log
+├── 📜 img                    # evidencia  
 ├── 📜 Alertas-SOporte.ps1    # Script principal (Lógica de monitoreo)
 ├── 📜 Configurar-Tarea.ps1   # Instalador (Crea la tarea programada)
 └── 📜 README.md              # Documentación completa
