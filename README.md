@@ -167,10 +167,6 @@ Unregister-ScheduledTask -TaskName "MonitoreoSistema-TI" -Confirm:$false
 > **[📂 Ver Galería Completa de Evidencias](/evidence/)**  
 > *Consulta la carpeta `/evidence` para ver capturas de pantalla de alertas reales y archivos de log generados.*
 
-### 🎥 Video Demostrativo
-> **[Ver Demo en Funcionamiento](#)** (Añade aquí tu link a YouTube/Loom)  
-> *Demostración del script detectando fallos y enviando alertas en tiempo real.*
-
 ### Ejemplos de Alertas en Discord
 A continuación se muestran los formatos de alerta que genera el sistema:
 
