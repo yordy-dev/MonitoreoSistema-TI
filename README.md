@@ -1,8 +1,8 @@
 # 🤖 MonitorTI - Sistema de Monitoreo y Alertas a Discord
 
-![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?logo=powershell)
-![Discord](https://img.shields.io/badge/Discord-Webhook-5865F2?logo=discord)
-![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows)
+[![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?logo=powershell)](https://www.microsoft.com/es-es/windows?r=1)
+[![Discord](https://img.shields.io/badge/Discord-Webhook-5865F2?logo=discord)](https://support.discord.com/hc/es/articles/228383668-Introducci%C3%B3n-a-los-webhook)
+[![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows)](https://www.powershellgallery.com/)
 
 ---
 
